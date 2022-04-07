@@ -10,19 +10,19 @@ This is a picture ![CSE Image](https://studyabroad.ucsd.edu/_images/majors-maps/
 
 > block quote test
 
-My favorite food
+My favorite food:
 
-*ramen
+* ramen
 
-*Sushi
+* Sushi
 
-*Boba
+* Boba
  
 Top 3 Animals
 
-1.Dog
-2.Cat
-3.Octopus
+1. Dog
+2. Cat
+3. Octopus
 
 ---
 
