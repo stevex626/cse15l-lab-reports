@@ -1,6 +1,6 @@
-#Welcome to CSE 15L
+# Welcome to CSE 15L
 
-##This is some random title
+## This is some random title
 
 My name is *Steven* and my favorite sport is **basketball**
 
