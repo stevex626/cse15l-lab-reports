@@ -77,6 +77,7 @@
 ![image](lab8.jpg)
 
 ![image](lab9.jpg)
+
 11. If everything runs correctly , now you should be able to log into the server without entering a password
 
 ![image](10.jpg)
