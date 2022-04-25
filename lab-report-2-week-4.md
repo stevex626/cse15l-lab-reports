@@ -28,5 +28,6 @@
 ![image](lab1.jpg)
 * [Link](https://github.com/stevex626/markdown-parser/blob/main/test-file2.md) to the failure-inducing input
 * Screen shot of the symptom
+
 ![image](lab5.jpg)
 * The *failure-inducing input* in this test case is adding a random line of text at the end of the file. The *symptom* is that the program did not have the correct output and instead it also produces a `StringIndexOutOfBoundsException`. The bug is also at line 16, where we need to add one more condition to check whether there is something after the blank line (check if it is a link or something else); if it is a link, keep executing the loop, terminate otherwise.
