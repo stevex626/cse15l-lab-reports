@@ -20,4 +20,7 @@ Host ieng6
  ![image](lab3.jpg)
 
 ## Setup Github Access from ieng6
-1. 
+1. First, we need to clone the **MarkdownParse** files from our repository into the remote server *ieng6*
+![image](lab4.jpg)
+
+2. 
