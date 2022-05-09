@@ -73,4 +73,11 @@ I have also used the `touch` command to add a new blank file named "hello.txt" i
 * [Link](https://github.com/stevex626/markdown-parser/commit/7a2f331c4338c109b7ab38e6dd48ccf40952f67c) for the resulting commit
 
 ## Copy Whole Directories with `scp -r`
-* First, we copy the 
+* First, we copy the whole **markdown-parse** directory to **ieng6** by entering the following command
+`scp -r . cs15lsp22apl@ieng6.ucsd.edu:~/markdown-parse` (change apl to your own course-specific username)
+![image](lab16.jpg)
+
+* Now when you log into the **ieng6** remoter server, you should be able to see the **markdown-parse** directory
+![image](lab17.jpg)
+
+*
