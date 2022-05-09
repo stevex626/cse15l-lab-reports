@@ -40,7 +40,6 @@ Screenshot is shown below
 ![image](lab8.jpg)
 
 4. Screenshot of the public key on my user account
-
 ![image](lab9.jpg)
 
 5. Copy and paste the contents and create a new SSH key on GitHub
@@ -50,13 +49,11 @@ Screenshot is shown below
 ![image](lab11.jpg)
 
 7. After we cloned the repository, we should `cd` into the repository and then make some changes to the MarkdownParse file
-
 Here I deleted two comments and added two new comments:
 ![image](lab12.jpg)
 
 I have also used the `touch` command to add a new blank file named "hello.txt" inside the markdown-parser repository
 ![image](lab13.jpg)
-
 8. Now, we should add all the files into the repository using `git add .` and make commits using `git commit -m "Update messages"`
 ![image](lab14.jpg)
 
