@@ -4,6 +4,7 @@
 * Open the ssh folder on your local device. I am using a MacBook so
 I can find and open the .ssh file through using the "Spotlight Search",
 as shown below
+
 ![image](lab1.jpg)
 
 * Open a folder named "config" inside the ssh folder. If the folder doesn't exist, create one inside the ssh folder with a "txt" extension.
