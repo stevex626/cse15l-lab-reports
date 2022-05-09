@@ -80,4 +80,18 @@ I have also used the `touch` command to add a new blank file named "hello.txt" i
 * Now when you log into the **ieng6** remoter server, you should be able to see the **markdown-parse** directory
 ![image](lab17.jpg)
 
-*
+* Then, we use the following commands to run the Junit Test on the remote server
+
+```
+cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
+
+![image](lab18.jpg) 
+
+* The last step is that we need to do all these steps all in one line. To accomplish this, we can enter the following commands in our terminal
+
+```
+scp -r . cs15lsp22apl@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
+```
+![image](lab19.jpg)
+
