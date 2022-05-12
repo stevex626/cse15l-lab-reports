@@ -21,11 +21,12 @@ Host ieng6
  ![image](lab3.jpg)
 
 * If we want to use the `scp` command to copy a file from the local to the remote server, we can just simply type the following line:
-`scp helloworldtext.txt cs15lsp22apl@ieng6.ucsd.edu:~/` 
-where the file name and its extension follows the `scp` and then the course-specific account username at the end.
+`scp helloworldtext.txt ieng6:~/` 
+where the file name and its extension follows the `scp` and then the alias that you chose at the end.
+![image](lab.jpg)
 
 * Now we log in back to **ieng6** and we see that the text file has been copied to the remote server
-![image](lab5.jpg)
+![image](lab.jpg)
 
 ## Setup Github Access from ieng6
 * For this setup, we need to enter the following command to generate an SSH key on the remote server
